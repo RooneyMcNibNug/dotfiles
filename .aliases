@@ -1,0 +1,20 @@
+## USERLAND
+
+# Changing directories
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+# Grep
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+## GIT
+
+# Checksum, description, and history graph of your last 15 commits.
+alias glg='git log --pretty=oneline -n 15 --graph --abbrev-commit'
+
+# Generate diff between latest commit & current state
+alias gdf='git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat'
