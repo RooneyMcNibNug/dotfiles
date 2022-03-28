@@ -6,6 +6,10 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
+# Listing processes in order of which is using the most memory/CPU
+alias mtop="top -o %MEM"
+alias ctop="top -o %CPU"
+
 # Grep
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
