@@ -1,8 +1,0 @@
-{
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
-    "telemetry.telemetryLevel": "off",
-    "remote.SSH.connectTimeout": 60,
-    "remote.SSH.enableDynamicForwarding": true,
-    "remote.SSH.maxReconnectionAttempts": 2
-}
