@@ -1,0 +1,2 @@
+[alias]
+    glg = log --pretty=oneline -n 15 --graph --abbrev-commit #Checksum, description, and history graph of your last 15 commits.
