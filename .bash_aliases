@@ -1,4 +1,5 @@
-## USERLAND
+## USERLAND ##
+##############
 
 # Changing directories
 alias ..="cd .."
@@ -15,7 +16,12 @@ alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 
-## GIT (separate from .gitconfig)
+# Systemd
+alias jctl='journalctl'
+alias jkctrl='journalctl -k -f'
+
+## GIT (separate from .gitconfig) ##
+####################################
 
 # Generate diff between latest commit & current state
 alias gdf='git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat'
