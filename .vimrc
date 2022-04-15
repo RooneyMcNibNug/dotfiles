@@ -7,6 +7,7 @@ set showcmd
 set ruler
 set backspace=indent,eol,start
 set nowrap
+set noerrorbells
 
 filetype indent on
 filetype plugin on
