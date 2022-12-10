@@ -1,3 +1,5 @@
+## save as ~/.config/audacious/config
+
 #[alsa]
 #mixer-element=Master
 
