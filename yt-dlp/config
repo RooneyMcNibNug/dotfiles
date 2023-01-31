@@ -1,0 +1,14 @@
+## A smol yt-dlp config for ripping videos.
+## Arch has decent/succint yt-dlp docu here: https://wiki.archlinux.org/title/Yt-dlp
+
+# Best quality for video and audio, export as .mp4
+-f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best"
+
+# Output files to ~/Videos with a decent format
+-o ~/Videos/%(title)s.%(ext)s
+
+# Create a subtitles file (.srt)
+--convert-subtitles=srt
+
+# Include video's metadata
+#--add-metadata
