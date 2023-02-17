@@ -1,0 +1,45 @@
+{
+  "timeStamp": 1676646230503,
+  "version": "1.47.0",
+  "userSettings": {
+    "externalLists": "https://big.oisd.nl/\nhttps://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/SNAFU.txt\nhttps://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt\nhttps://userscripts.adtidy.org/release/adguard-extra/1.0/adguard-extra.user.js",
+    "importedLists": [
+      "https://big.oisd.nl/",
+      "https://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/SNAFU.txt",
+      "https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt",
+      "https://userscripts.adtidy.org/release/adguard-extra/1.0/adguard-extra.user.js"
+    ],
+    "popupPanelSections": 31
+  },
+  "selectedFilterLists": [
+    "user-filters",
+    "ublock-filters",
+    "ublock-badware",
+    "ublock-privacy",
+    "ublock-quick-fixes",
+    "ublock-abuse",
+    "ublock-unbreak",
+    "easylist",
+    "easyprivacy",
+    "urlhaus-1",
+    "plowe-0",
+    "https://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/SNAFU.txt",
+    "https://userscripts.adtidy.org/release/adguard-extra/1.0/adguard-extra.user.js",
+    "https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt",
+    "https://big.oisd.nl/"
+  ],
+  "hiddenSettings": {},
+  "whitelist": [
+    "chrome-extension-scheme",
+    "chrome-scheme",
+    "edge-scheme",
+    "moz-extension-scheme",
+    "opera-scheme",
+    "vivaldi-scheme",
+    "wyciwyg-scheme"
+  ],
+  "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
+  "urlFilteringString": "",
+  "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-csp-reports: * true",
+  "userFilters": "! 2022-12-13 https://twitter.com\n||accounts.google.com/gsi/iframe/select?client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=rMkyGRTNYG2akB2ir3mDww&channel_id=175ac22d2f0f26eb28eb70d5057cd4a5df311bb742dc096cffd46d944b19f1b9&origin=https%3A%2F%2Ftwitter.com&is_itp=true$subdocument\n"
+}
