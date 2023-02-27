@@ -1,13 +1,18 @@
 {
-  "timeStamp": 1676646230503,
+  "timeStamp": 1677524004012,
   "version": "1.47.0",
   "userSettings": {
-    "externalLists": "https://big.oisd.nl/\nhttps://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/SNAFU.txt\nhttps://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt\nhttps://userscripts.adtidy.org/release/adguard-extra/1.0/adguard-extra.user.js",
+    "externalLists": "https://big.oisd.nl/\nhttps://bitbucket.org/ethanr/dns-blacklists/raw/8575c9f96e5b4a1308f2f12394abd86d0927a4a0/bad_lists/Mandiant_APT1_Report_Appendix_D.txt\nhttps://phishing.army/download/phishing_army_blocklist_extended.txt\nhttps://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/SNAFU.txt\nhttps://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt\nhttps://userscripts.adtidy.org/release/adguard-extra/1.0/adguard-extra.user.js\nhttps://v.firebog.net/hosts/Prigent-Ads.txt\nhttps://v.firebog.net/hosts/Prigent-Crypto.txt\nhttps://v.firebog.net/hosts/Prigent-Malware.txt",
     "importedLists": [
       "https://big.oisd.nl/",
+      "https://bitbucket.org/ethanr/dns-blacklists/raw/8575c9f96e5b4a1308f2f12394abd86d0927a4a0/bad_lists/Mandiant_APT1_Report_Appendix_D.txt",
+      "https://phishing.army/download/phishing_army_blocklist_extended.txt",
       "https://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/SNAFU.txt",
       "https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt",
-      "https://userscripts.adtidy.org/release/adguard-extra/1.0/adguard-extra.user.js"
+      "https://userscripts.adtidy.org/release/adguard-extra/1.0/adguard-extra.user.js",
+      "https://v.firebog.net/hosts/Prigent-Ads.txt",
+      "https://v.firebog.net/hosts/Prigent-Crypto.txt",
+      "https://v.firebog.net/hosts/Prigent-Malware.txt"
     ],
     "popupPanelSections": 31
   },
@@ -19,12 +24,20 @@
     "ublock-quick-fixes",
     "ublock-abuse",
     "ublock-unbreak",
+    "adguard-generic",
     "easylist",
     "easyprivacy",
     "urlhaus-1",
+    "curben-phishing",
+    "fanboy-thirdparty_social",
     "plowe-0",
+    "https://bitbucket.org/ethanr/dns-blacklists/raw/8575c9f96e5b4a1308f2f12394abd86d0927a4a0/bad_lists/Mandiant_APT1_Report_Appendix_D.txt",
+    "https://phishing.army/download/phishing_army_blocklist_extended.txt",
     "https://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/SNAFU.txt",
     "https://userscripts.adtidy.org/release/adguard-extra/1.0/adguard-extra.user.js",
+    "https://v.firebog.net/hosts/Prigent-Ads.txt",
+    "https://v.firebog.net/hosts/Prigent-Crypto.txt",
+    "https://v.firebog.net/hosts/Prigent-Malware.txt",
     "https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt",
     "https://big.oisd.nl/"
   ],
