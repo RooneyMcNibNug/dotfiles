@@ -31,3 +31,4 @@ alias jkctrl='journalctl -k -f'
 
 # Generate diff between latest commit & current state
 alias gdf='git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat'
+alias slideshow='feh -r ./** --cycle-once -z -Z -F -D 10'
