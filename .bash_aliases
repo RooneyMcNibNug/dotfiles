@@ -31,4 +31,9 @@ alias jkctrl='journalctl -k -f'
 
 # Generate diff between latest commit & current state
 alias gdf='git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat'
+
+## MISC ##
+##########
+
+# Using feh for randomized slideshows of photos for the whole family!
 alias slideshow='feh -r ./** --cycle-once -z -Z -F -D 10'
