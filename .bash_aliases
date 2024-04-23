@@ -1,9 +1,3 @@
-# DDG aliases
-[ -f ~/.ddg_aliases ] && source ~/.ddg_aliases
-[ -f ~/.dev_aliases ] && source ~/.dev_aliases
-
-# User defined aliases below
-
 ## USERLAND ##
 ##############
 
