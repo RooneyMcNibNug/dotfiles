@@ -41,5 +41,8 @@ alias gdf='git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-
 # Using feh for randomized slideshows of photos for the whole family!
 alias slideshow='feh -r ./** --cycle-once -z -Z -F -D 10'
 
+# Play random video from current working directory (bash oneliner for https://github.com/RooneyMcNibNug/linux-scripts/blob/master/decisive_vlc.py)
+alias randvid='find /path/to/videos -type f \( -name "*.mp4" -o -name "*.mkv" -o -name "*.avi" -o -name "*.wmv" -o -name "*.m4v" \) | shuf -n 1 | xargs vlc'
+
 # put a cute little clock in the terminal (on the top right)
 alias termclock='while sleep 1; do tput sc; tput cup 0 $(($(tput cols)-29)); date; tput rc; done &'
