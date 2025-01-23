@@ -1,7 +1,7 @@
 ## USERLAND ##
 ##############
 
-# Changing directories
+# Lazier changing directories
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
@@ -14,12 +14,12 @@ alias ctop="top -o %CPU"
 # Listing TCP connections sorted by most connections
 alias mosttcp="netstat -ntu | awk '{print $5}' | cut -d: -f1 -s | sort | uniq -c | sort -nk1 -r"
 
-# Grep
+# Grep with color
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 
-# Systemd
+# Systemd quick info
 alias jctl='journalctl'
 alias jkctrl='journalctl -k -f'
 
@@ -28,6 +28,9 @@ alias todayls='ls -al --time-style=+%D | grep `date +%D`'
 
 # List the largest files retained within the /var dir (recursive)
 alias auditvar='tree -ihafF /var | tr '[]' ' ' | sort -k1hr | head -10'
+
+# List conents of current working directory as well as human-readble filesizes
+alias lsd='ls -l; echo; du -h --max-depth 1'
 
 ## GIT (separate from .gitconfig) ##
 ####################################
