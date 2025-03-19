@@ -49,3 +49,6 @@ alias randvid='find /path/to/videos -type f \( -name "*.mp4" -o -name "*.mkv" -o
 
 # put a cute little clock in the terminal (on the top right)
 alias termclock='while sleep 1; do tput sc; tput cup 0 $(($(tput cols)-29)); date; tput rc; done &'
+
+# download a youtube link as an mp3 (great for podcasts/lectures)
+alias yt-mp3='yt-dlp -f bestaudio -x --audio-format mp3 --audio-quality 0'
